@@ -5,3 +5,23 @@ body {
     color: white;
 }
 
+.SLACA2019 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	max-height: 68px;
+	max-width: 220px;
+	background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;	
+	color: #FFFFFF;
+	padding: 18px;
+}
+
+.header {
+	background-color: #FDF1EB;
+	height: 68px;
+}
