@@ -68,3 +68,13 @@ body {
 	line-height: 16px;
 	color: #725C5C;	
 }
+
+#drop {
+	position: absolute;
+	width: 97px;
+	height: 34px;
+	left: 900px;
+	top: 17px;
+	box-sizing: border-box;
+	border-radius: 3px;	
+}
