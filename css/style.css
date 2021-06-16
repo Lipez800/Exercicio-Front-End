@@ -1,7 +1,6 @@
 body {
     background: url('https://scitechdaily.com/images/Electronic-Chip.gif') no-repeat center center fixed;
     background-size: cover;
-    font-family: Andale Mono, monospace;
     color: white;
 }
 
@@ -12,16 +11,60 @@ body {
 	max-height: 68px;
 	max-width: 220px;
 	background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 35px;	
 	color: #FFFFFF;
 	padding: 18px;
+	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
+	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
 }
 
 .header {
 	background-color: #FDF1EB;
 	height: 68px;
+}
+
+.headertexto1 {
+	position: absolute;
+	width: 391px;
+	height: 16px;
+	left: 240px;
+	top: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #725C5C;	 
+}
+
+.headertexto2 {
+	position: absolute;
+	width: 643px;
+	height: 26px;
+	left: 239px;
+	top: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	color: #725C5C;
+}
+
+.headertexto3 {
+	position: absolute;
+	width: 105px;
+	height: 16px;
+	left: 239px;
+	top: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #725C5C;	
 }
