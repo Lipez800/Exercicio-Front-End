@@ -9,8 +9,8 @@ body {
 	position: absolute;
 	top: 0%;
 	left: 0%;
-	max-height: 68px;
-	max-width: 220px;
+	height: 68px;
+	width: 220px;
 	background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -19,7 +19,7 @@ body {
 	line-height: 35px;	
 	color: #FFFFFF;
 	padding: 18px;
-	padding-right: 33px;
+	padding-right: 0px;
 	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
 	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
 }
@@ -35,7 +35,7 @@ body {
 	height: 16px;
 	left: 240px;
 	top: 5px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -49,7 +49,7 @@ body {
 	height: 26px;
 	left: 239px;
 	top: 23px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
@@ -63,7 +63,7 @@ body {
 	height: 16px;
 	left: 239px;
 	top: 48px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -323,6 +323,8 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 
 /*Inicio Body*/
 
+/*Menu Slaca*/
+
 .logoSlaca {
 	padding-left: 15px;
 	width: 235px;
@@ -367,3 +369,28 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
       #menuSlaca a:active {
 		background: linear-gradient(90deg, rgba(255,180,85,1) 2%, rgba(253,241,235,1) 2%);
       }
+
+/*Fim Menu*/
+
+/*Inicio Centro da Pagina*/
+
+.centroTitulo {
+	width: 786px;
+	height: 54px;
+	margin: 20px 10px 10px 10px;
+	height: 54px;
+	left: 0px;
+	right: 273px;
+	top: 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	color: #ED7839;	 
+}
+
+.centroVideo {
+	margin: 20px 0px 0px 10px;
+}
