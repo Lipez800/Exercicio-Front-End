@@ -3,6 +3,8 @@ body {
     background-color: white;
 }
 
+/*head*/
+
 .SLACA2019 {
 	position: absolute;
 	top: 0%;
@@ -17,6 +19,7 @@ body {
 	line-height: 35px;	
 	color: #FFFFFF;
 	padding: 18px;
+	padding-right: 33px;
 	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
 	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
 }
@@ -238,6 +241,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
    padding: 10px;
 }
 
+/*Fim head*/
 
 /*Efeito imagem */ 
 @-webkit-keyframes swing
@@ -316,3 +320,46 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 }
 
 /*Fim Efeito*/ 
+
+/*Inicio Body*/
+
+.logoSlaca {
+	padding-left: 15px;
+	width: 235px;
+	height: 258px;
+	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
+	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
+}
+
+.abaixoSlaca {
+	width: 235px;
+	height: 1701px;
+	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
+	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
+}
+
+#menuSlaca {
+   text-align: center;
+   font-size: 18px;
+   font-family: monospace;
+   padding: 15px;
+}
+
+#menuSlaca a {
+  text-decoration: none;
+  margin: 10px;
+  color: #8181F7;
+  font-weight: cursive;
+  border: 6px double #8181F7;
+  border-radius: 63px 63px 63px 63px;
+} 
+      /*Links Hover, passa o cursor sobre o link*/
+       #menuSlaca a:hover{
+        color: #51A8DA;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0) 100%);
+      }
+ 
+      /*Links Ativos, quando clicados*/
+      #menuSlaca a:active {
+        color: #E6E6E6;
+      }
