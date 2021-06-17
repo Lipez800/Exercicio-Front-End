@@ -10,7 +10,7 @@ body {
 	top: 0%;
 	left: 0%;
 	height: 68px;
-	width: 220px;
+	width: 200px;
 	background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -18,7 +18,7 @@ body {
 	font-size: 30px;
 	line-height: 35px;	
 	color: #FFFFFF;
-	padding: 18px;
+	padding: 15px;
 	padding-right: 0px;
 	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
 	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
@@ -33,8 +33,8 @@ body {
 	position: absolute;
 	width: 391px;
 	height: 16px;
-	left: 240px;
-	top: 5px;
+	left: 225px;
+	top: 10px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -47,12 +47,12 @@ body {
 	position: absolute;
 	width: 643px;
 	height: 26px;
-	left: 239px;
+	left: 225px;
 	top: 23px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 26px;
 	color: #725C5C;
 }
@@ -61,12 +61,12 @@ body {
 	position: absolute;
 	width: 105px;
 	height: 16px;
-	left: 239px;
+	left: 225px;
 	top: 48px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 16px;
 	color: #725C5C;	
 }
@@ -75,7 +75,7 @@ body {
 	position: absolute;
 	width: 72px;
 	height: 18px;
-	left: 190px;
+	left: 205px;
 	top: 5px;
 	font-family: Quicksand;
 	font-style: normal;
@@ -89,9 +89,7 @@ body {
 
 .headerEmail{
 	position: absolute;
-	width: 163px;
-	height: 15px;
-	left: 100px;
+	left: 140px;
 	top: 20px;
 	font-family: Quicksand;
 	font-style: normal;
@@ -106,7 +104,7 @@ body {
 	position: absolute;
 	width: 97px;
 	height: 34px;
-	left: 900px;
+	left: 880px;
 	top: 12px;
 	box-sizing: border-box;
 	border-radius: 3px;	
@@ -327,14 +325,14 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 
 .logoSlaca {
 	padding-left: 15px;
-	width: 235px;
+	width: 215px;
 	height: 258px;
 	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
 	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
 }
 
 .abaixoSlaca {
-	width: 235px;
+	width: 215px;
 	height: 1701px;
 	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
 	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
@@ -352,7 +350,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
   text-align: left;
   padding-top: 5px;
   padding-left: 15px;
-  width: 220px;
+  width: 200px;
   height: 40px;
   color: #725C5C;
   display: inline-block;
@@ -394,3 +392,81 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 .centroVideo {
 	margin: 20px 0px 0px 10px;
 }
+
+/*Fim Centro da Pagina*/
+
+/*Efeito Button*/
+.button {
+  position: relative;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #A9F5A9;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+/*Fim efeito*/
+
+/*Inicio Lado Direito da Pagina*/
+.button1 {
+	width: 120px;
+	height: 31px; 
+	margin-top: 20px;
+	position: absolute;
+	left: -10%;
+	right: 9.16%;
+	top: 0%;
+	bottom: 98.23%;
+	background: #ED7839;
+	color: white;
+	border-radius: 4px;
+	border: 0px;
+
+}
+.button2 {
+	width: 33px;
+	height: 31px; 
+	margin-top: 20px;
+	position: absolute;
+	left: 53%;
+	right: 9.16%;
+	top: 0%;
+	bottom: 98.23%;
+	background: #ED7839;
+	border-radius: 4px;
+	border: 0px;
+}
+.button3 {
+	width: 33px;
+	height: 31px; 
+	margin-top: 20px;
+	position: absolute;
+	left: 71%;
+	right: 9.16%;
+	top: 0%;
+	bottom: 98.23%;
+	background: #ED7839;
+	border: 0px;
+	border-radius: 4px;
+
+}
+
