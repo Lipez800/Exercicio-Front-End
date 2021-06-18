@@ -429,7 +429,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 
 /*Efeito Scrollbar*/
 .wrapper {
-  width: auto;
+  width: 242px;
   height: 438px;
   text-align:center;
   font-size: 1.5rem;
@@ -437,6 +437,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 
 textarea::-webkit-scrollbar {
   width: 3px;
+  height: 5px;
   background-color: #E7E7E7; }
 
 textarea::-webkit-scrollbar-thumb {
@@ -454,7 +455,8 @@ textarea::-webkit-scrollbar-thumb {
 	color: white;
 	border-radius: 4px;
 	border: 0px;
-	margin-left: auto;
+	position: relative;
+	left:10%;		
 
 }
 .button2 {
@@ -465,6 +467,7 @@ textarea::-webkit-scrollbar-thumb {
 	border: 0px;
 	position: relative;
 	top: -0.3%;
+	left:10%;
 }
 .button3 {
 	width: 33px;
@@ -474,6 +477,7 @@ textarea::-webkit-scrollbar-thumb {
 	border-radius: 4px;
 	position: relative;
 	top: -0.3%;	
+	left:10%;
 
 }
 
@@ -484,6 +488,7 @@ textarea::-webkit-scrollbar-thumb {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 25px;
+	margin-left: 24px;
 }
 
 .navbarDetalhes {
@@ -504,5 +509,6 @@ textarea::-webkit-scrollbar-thumb {
 	font-weight: normal;
 	color: #5C5C5C;
 	white-space: nowrap;
+	font-size: 16px;
 }
 
