@@ -373,9 +373,9 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 /*Inicio Centro da Pagina*/
 
 .centroTitulo {
-	width: 786px;
+	width: 730px;
 	height: 54px;
-	margin: 20px 10px 10px 10px;
+	margin: 20px 10px 10px 12px;
 	height: 54px;
 	left: 0px;
 	right: 273px;
@@ -383,7 +383,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 25px;
 	letter-spacing: 0.05em;
 	color: #ED7839;	 
@@ -416,6 +416,7 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s
+
 }
 
 .button:active:after {
@@ -426,47 +427,82 @@ box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px
 }
 /*Fim efeito*/
 
+/*Efeito Scrollbar*/
+.wrapper {
+  width: auto;
+  height: 438px;
+  text-align:center;
+  font-size: 1.5rem;
+}
+
+textarea::-webkit-scrollbar {
+  width: 3px;
+  background-color: #E7E7E7; }
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #BFBFBF; }
+/*Fim Efeito*/
+
 /*Inicio Lado Direito da Pagina*/
 .button1 {
 	width: 120px;
 	height: 31px; 
 	margin-top: 20px;
-	position: absolute;
-	left: -10%;
-	right: 9.16%;
-	top: 0%;
-	bottom: 98.23%;
 	background: #ED7839;
 	color: white;
 	border-radius: 4px;
 	border: 0px;
+	margin-left: auto;
 
 }
 .button2 {
 	width: 33px;
 	height: 31px; 
-	margin-top: 20px;
-	position: absolute;
-	left: 53%;
-	right: 9.16%;
-	top: 0%;
-	bottom: 98.23%;
 	background: #ED7839;
 	border-radius: 4px;
 	border: 0px;
+	position: relative;
+	top: -0.3%;
 }
 .button3 {
 	width: 33px;
 	height: 31px; 
-	margin-top: 20px;
-	position: absolute;
-	left: 71%;
-	right: 9.16%;
-	top: 0%;
-	bottom: 98.23%;
 	background: #ED7839;
 	border: 0px;
 	border-radius: 4px;
+	position: relative;
+	top: -0.3%;	
 
+}
+
+.tituloTrabalho {
+	color: #ED7839;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.navbarDetalhes {
+	background: #FDF1EB;
+	border: 1px solid #ECECEC;
+	box-sizing: border-box;
+	border-radius: 3px 3px 0px 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.texto {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	color: #5C5C5C;
+	white-space: nowrap;
 }
 
