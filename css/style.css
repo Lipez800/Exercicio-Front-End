@@ -590,3 +590,25 @@ textarea::-webkit-scrollbar-thumb {
 	color: #ED7839;
 }
 /*Fim Efeito Ver Mais*/
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    iframe {
+    	width: 400px; 
+    	height: 300px;
+    }
+
+    .centroTitulo {
+    	width: 100%;
+    	font-size: 12px;
+    }
+}
