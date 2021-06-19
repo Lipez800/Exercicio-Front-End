@@ -591,13 +591,15 @@ textarea::-webkit-scrollbar-thumb {
 }
 /*Fim Efeito Ver Mais*/
 
+
+/*Ajustando site para Dispositivos*/
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     body {
         background-color: #ffffff;
     }
@@ -607,8 +609,15 @@ textarea::-webkit-scrollbar-thumb {
     	height: 300px;
     }
 
-    .centroTitulo {
+    .headertexto1, .headertexto2, .headertexto3 {
     	width: 100%;
     	font-size: 12px;
     }
+
+    .centroTitulo {
+    	width: 100%;
+    	font-size: 12px;	
+    }
 }
+
+/*Ajustando site para Dispositivos Fim*/
