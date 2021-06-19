@@ -530,25 +530,63 @@ textarea::-webkit-scrollbar-thumb {
 	line-height: 25px;
 }
 
+.textoResumo {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 14px;
+    width: 990px;
+	background: #FFFFFF;
+	border: 1px solid #ECECEC;
+	box-sizing: border-box;
+	border-radius: 3px;  	
+}
+
+.verMais {
+	color: #ED7839;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+}
 
 /*Efeito Ver Mais*/
-.table-aguardo label {
-    width: 995px;
-    display: inline-block;
-    background-color: green;
-    cursor: pointer;
-}
-.table-aguardo input[type="checkbox"] {
-    display: none;
-}
-.table-aguardo input:checked + label {
-    background-color: red;
+.section {
+    position: absolute;
 }
 
-.table-aguardo table {
-    display: none;
+.section > .txt-more {
+    display: block;
+
+    /*posiciona o link no final da DIV*/
+    position: absolute;
+    right: 17.5%;
+    bottom: -5.2px;
 }
-.table-aguardo input:checked ~ table {
-    display: table;
+
+.section > .partial {
+    height: 114px; /* limita a altura aqui, assim irá limitar o texto*/
+    width: 990px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.section > a::before {
+    content: "Ocultar"; /*Texto de quando o texto estiver visivel*/
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 50px;
+	color: #ED7839;
+}
+
+.section > a.txt-more::before {
+    content: "ver mais"; /* texto para o link*/
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ED7839;
 }
 /*Fim Efeito Ver Mais*/

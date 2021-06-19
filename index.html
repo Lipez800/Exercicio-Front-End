@@ -119,24 +119,36 @@ Stephen Hawking⁴
       </div>
     </div>
     <div style="padding-left: 30px; padding-right: 0px;" class="col-xl">
-  	 		<nav style="width: 995px;" class="navbar navbar-light navbarResumo">
+  	 		<nav style="width: 990px;" class="navbar navbar-light navbarResumo">
   				<span class="navbar-brand mb-0 h1">Resumo</span>
   			</nav>
-  <!–Ver Mais–>			
-  		<div class="table-aguardo">
-  <input id="aguardando" type="checkbox">
-  <label for="aguardando" class="header">Ver Mais</label>
-   <table cellspacing="0">
-      <tr>
-         <th>Lorem ipsum ut magna maecenas est torquent justo, sollicitudin nisl mauris imperdiet sociosqu nullam inceptos, per justo turpis potenti convallis phasellus. netus class porttitor fringilla curae sagittis ad diam placerat lorem mi purus vestibulum inceptos, augue iaculis convallis eleifend phasellus eleifend quisque in bibendum elit ultricies. proin consequat non tellus praesent sagittis pretium hendrerit felis augue maecenas sollicitudin platea, venenatis odio ultricies a elementum massa lacus id curabitur in semper. placerat quisque donec facilisis id pellentesque enim porttitor habitasse, amet cursus augue posuere donec lobortis urna sagittis netus, venenatis nunc donec ut netus viverra dapibus. 
+			<div class="section">
+   			 <div class="containerfluid partial textoResumo"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant... 
+				<br><br>
+				In id consequat metus. Pellentesque accumsan leo scelerisque libero elementum sagittis. Maecenas eget libero hendrerit, semper purus pulvinar, consequat turpis. Ut quam erat, laoreet vitae volutpat nec, lacinia nec elit. Etiam eu condimentum metus. Mauris id venenatis quam. Morbi id ex enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque consequat blandit odio, porttitor sagittis turpis euismod eu. Maecenas luctus elit a consequat convallis. Morbi ultricies, ligula a iaculis suscipit, est justo pharetra purus, nec interdum elit libero eu metus. Maecenas aliquet enim id ipsum fermentum, quis vulputate sapien lobortis. Morbi id mauris tincidunt urna porttitor posuere. Curabitur a purus sit amet lorem dictum blandit sed sit amet nunc. Nulla et lorem non eros porta consequat vitae quis lacus. Aenean faucibus efficitur sem vitae faucibus.
+				<br><br>
+				Morbi quis mi posuere, vehicula quam nec, scelerisque est. Mauris vitae nisl et arcu consequat tristique. Nulla vitae scelerisque ex. Fusce ultrices lacus vel vehicula mollis. Cras facilisis sapien dictum neque placerat, vitae pretium lectus tincidunt. Donec eget euismod velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae magna tempus, tincidunt dui eu, imperdiet augue. In dictum lacus at lorem egestas, vel commodo purus ullamcorper. Ut vitae nisi hendrerit, lacinia leo a, vulputate quam. Etiam ac ante urna. Nullam ut sem vel turpis placerat accumsan. Donec nec consequat sem.
+   			 </div>
+    	<a class="txt-more" href="javascript:void(0);"></a>
+</div>
+<!–Fim Ver Mais–>
 
-	Vitae ultrices leo pulvinar himenaeos dictumst lorem euismod ultricies dictumst nam dapibus, nibh porttitor pretium nulla quisque tempor ante risus interdum habitasse, ut consectetur aliquam donec morbi molestie gravida sodales curabitur lobortis. cursus suspendisse ultrices at per nullam himenaeos dapibus, aptent curae molestie fames pharetra consectetur cras turpis, ullamcorper porttitor lacinia orci integer sapien. feugiat dapibus suspendisse phasellus turpis habitant nunc, etiam id himenaeos imperdiet ultricies fames, cubilia tortor litora commodo sodales. convallis porta nec egestas maecenas morbi vehicula nisl nec aenean, eu condimentum pharetra tristique libero donec ad rutrum sagittis, aliquam ullamcorper tempor interdum eros venenatis class neque. </th>
-      </tr>
-   </table>
-<!–Fim Ver Mais–>   
-</div>		
+		</div>		
     </div>
  </div>
-</div>    	
+</div> 
+<script type="text/javascript">
+var morelinks = document.querySelectorAll(".section > .txt-more");
+
+for (var i = 0, j = morelinks.length; i < j; i++) {
+     morelinks[0].onclick = function () {
+          var container = this.parentNode.querySelector(".containerfluid");
+          
+          container.classList.toggle("partial");
+          this.classList.toggle("txt-more");
+     };
+}	
+</script>   	
 </body>
 </html>
