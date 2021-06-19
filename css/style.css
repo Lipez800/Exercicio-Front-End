@@ -549,6 +549,7 @@ textarea::-webkit-scrollbar-thumb {
 	font-size: 16px;
 	line-height: 21px;
 }
+/*Fim Lado Direito da Pagina*/
 
 /*Efeito Ver Mais*/
 .section {
@@ -561,7 +562,8 @@ textarea::-webkit-scrollbar-thumb {
     /*posiciona o link no final da DIV*/
     position: absolute;
     right: 17.5%;
-    bottom: -5.2px;
+    top: 70px;
+    bottom: auto;
 }
 
 .section > .partial {
@@ -621,3 +623,11 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /*Ajustando site para Dispositivos Fim*/
+
+/*Inicio Parte abaixo de Discussões*/
+
+.buttonDiscussoes {
+	background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+}
