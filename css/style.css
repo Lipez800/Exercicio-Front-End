@@ -594,6 +594,17 @@ textarea::-webkit-scrollbar-thumb {
 }
 /*Fim Efeito Ver Mais*/
 
+/*Player De Video*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;
+  height: 456px;
+}
+/*Player De Video Fim*/
 
 /*Ajustando site para Dispositivos*/
 @media (max-width: 1024px) {
