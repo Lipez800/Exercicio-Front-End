@@ -676,8 +676,8 @@ textarea::-webkit-scrollbar-thumb {
 	border: none;
 	font-weight: bold;
 	margin-top: 20px;
-	margin-left: 45%;
-	margin-bottom: 20px;
+	margin-left: 43%;
+	margin-bottom: 10px;
 }
 
 hr.new1 {
@@ -693,6 +693,7 @@ hr.new1 {
 	line-height: 21px;
 	color: #ED7839;
 	text-align: center;
+	margin-top: 15px;
 }
 
 .bordaDiscussoes {
@@ -714,10 +715,9 @@ hr.new1 {
 }
 
 .assuntoDiscussoes {
- 	position: absolute;
- 	top: auto;
  	width: 990px;
- 	bottom: -36%;
+ 	margin-bottom: 5px;
+ 	float: top;
 }
 
 .assuntoeConteudo {
