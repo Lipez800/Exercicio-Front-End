@@ -389,10 +389,6 @@ body {
 	color: #ED7839;	 
 }
 
-.centroVideo {
-	margin: 20px 0px 0px 10px;
-}
-
 /*Fim Centro da Pagina*/
 
 /*Efeito Button*/
@@ -500,15 +496,22 @@ textarea::-webkit-scrollbar-thumb {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 25px;
+	margin-top: 6px;
 }
 
-.texto {
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: normal;
-	color: #5C5C5C;
-	white-space: nowrap;
-	font-size: 16px;
+.scrollspy-example {
+  position: relative;
+  height: 405px;
+  width: 242px;
+  overflow: auto;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  color: #5C5C5C;
+  font-size: 16px;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 3px;    
 }
 
 .parte2 {
@@ -636,6 +639,34 @@ textarea::-webkit-scrollbar-thumb {
 
 /*Ajustando site para Dispositivos Fim*/
 
+/* Efeito barra de rolagem */
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #EEE;
+    border-left: 1px solid #CCC  
+
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171
+}
+
+/* Efeito barra de rolagem Fim */
+
 /*Inicio Parte abaixo de Discussões*/
 
 .buttonDiscussoes {
@@ -666,3 +697,4 @@ textarea::-webkit-scrollbar-thumb {
 	box-sizing: border-box;
 	border-radius: 3px;  
 }
+
