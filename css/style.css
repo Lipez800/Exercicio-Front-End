@@ -678,6 +678,8 @@ textarea::-webkit-scrollbar-thumb {
 	left: 45%;
 	border: none;
 	font-weight: bold;
+ 	top: auto;
+	bottom: -4%;
 }
 
 .tituloDiscussoes {
@@ -698,3 +700,28 @@ textarea::-webkit-scrollbar-thumb {
 	border-radius: 3px;  
 }
 
+.textoDiscussoes {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #595959;	
+}
+
+.assuntoDiscussoes {
+ 	position: absolute;
+ 	top: auto;
+ 	width: 990px;
+ 	bottom: -38%;
+}
+
+.assuntoeConteudo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ED7839;
+}
