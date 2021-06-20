@@ -673,13 +673,16 @@ textarea::-webkit-scrollbar-thumb {
 	background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
 	border-radius: 4px;
-	position: absolute;
-	top: 400px;
-	left: 45%;
 	border: none;
 	font-weight: bold;
- 	top: auto;
-	bottom: -4%;
+	margin-top: 20px;
+	margin-left: 45%;
+	margin-bottom: 20px;
+}
+
+hr.new1 {
+  border-top: 1px solid red;
+  margin: 0px;
 }
 
 .tituloDiscussoes {
