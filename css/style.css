@@ -789,6 +789,7 @@ a:hover, .active {
 	text-align: left;
 	margin-top: 10px;
 	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 .GrupoTexto {
@@ -844,6 +845,42 @@ a:hover, .active {
 }
 
 .GrupoImgAutor {
-	
+	display: block;
+	width: 110px;
+	height: 25px;
+	margin-left: 268%;
+	margin-top: -20px;
+}
+
+.GrupoNomesResposta {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: #5C5C5C;
+	text-align: left;
+	width: 200px;
+	margin-right: 0px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+.GrupoCardRespostas {
+	margin-right: 15px;
+	margin-left: 15px;
+	height: auto;
+}
+
+.GrupoTextoRespostas {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #4D4D4D;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 /*Fim assunto da pergunta*/
