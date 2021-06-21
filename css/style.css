@@ -766,6 +766,8 @@ a:hover, .active {
 	margin-top: 100px;
 }
 
+/*Inicio Assunto da Pergunta*/
+
 .GrupoUmEDoisTitulo {
 	font-family: Quicksand;
 	font-style: normal;
@@ -829,3 +831,5 @@ a:hover, .active {
 	margin-right: 695px;
 	padding-bottom: 20px;
 }
+
+/*Fim assunto da pergunta*/
