@@ -2,7 +2,7 @@
     html : true,
     trigger : 'manual',
     content : function() {
-        return '<div class="box">Para denunciar o post click aqui.</div>';
+        return '<div class="box">Denunciar topico</div>';
     }
 });
 
