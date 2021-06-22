@@ -608,36 +608,6 @@ textarea::-webkit-scrollbar-thumb {
 }
 /*Player De Video Fim*/
 
-/*Ajustando site para Dispositivos*/
-@media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
-        background-color: #ffffff;
-    }
-
-    iframe {
-    	width: 400px; 
-    	height: 300px;
-    }
-
-    .headertexto1, .headertexto2, .headertexto3 {
-    	width: 100%;
-    	font-size: 12px;
-    }
-
-    .centroTitulo {
-    	width: 100%;
-    	font-size: 12px;	
-    }
-}
-
-/*Ajustando site para Dispositivos Fim*/
-
 /* Efeito barra de rolagem */
 
 /* Largura da barra de rolagem */
@@ -901,4 +871,14 @@ a:hover, .active {
 .footer {
 	margin-top: 30px; 
 	width: 988px;
+	height: 
 }
+
+
+/*Ajustando Site*/
+
+.centralizar {
+	width: 1228px;
+}
+
+/*Ajustando Site Fim*/
