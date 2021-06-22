@@ -714,9 +714,21 @@ hr.new1 {
 }
 
 .assuntoDiscussoes {
- 	width: 990px;
+ 	width: 989px;
  	margin-bottom: 5px;
- 	float: top;
+ 	position: absolute;
+ 	top: -480px;
+ 	padding-bottom: 0px;
+ 	
+}
+
+.buttonAssunto {
+	background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	border: none;
+	font-weight: bold;
+	margin-left: 76%;
 }
 
 .assuntoeConteudo {
@@ -729,16 +741,13 @@ hr.new1 {
 }
 
 .topicoEnviadoDiscussoes {
-	width: 990px;
-	height: 473px;
 	background: #FFFFFF;
-	border: 1px solid #ECECEC;
-	box-sizing: border-box;
-	border-radius: 3px;
-	position: absolute;
-	bottom: -307%;
-	right: 2%;
-	top: auto;  
+	height: 295px;
+ 	width: 989px;
+ 	margin-bottom: 5px;
+ 	position: absolute;
+ 	top: -80px;
+ 	padding-bottom: 0px;  
 }
 
 .textoDiscussoesSublinhado {
@@ -762,7 +771,6 @@ a:hover, .active {
 	border: 1px solid #E7E7E7;
 	box-sizing: border-box;
 	border-radius: 4px;
-	margin-top: 100px;
 }
 
 /*Inicio Assunto da Pergunta*/
@@ -883,3 +891,8 @@ a:hover, .active {
 	padding-bottom: 15px;
 }
 /*Fim assunto da pergunta*/
+
+.footer {
+	margin-top: 30px; 
+	width: 988px;
+}
