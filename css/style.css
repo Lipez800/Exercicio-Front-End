@@ -9,7 +9,7 @@ body {
 	position: absolute;
 	top: 0%;
 	left: 0%;
-	height: 68px;
+	height: 88px;
 	width: 200px;
 	background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 	font-family: 'Roboto', sans-serif;
@@ -20,8 +20,8 @@ body {
 	color: #FFFFFF;
 	padding: 15px;
 	padding-right: 0px;
-	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
-	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
+	box-shadow: 5px -10px 5px -5px #333;
+	position: fixed;
 }
 
 .header {
@@ -327,15 +327,18 @@ body {
 	padding-left: 15px;
 	width: 215px;
 	height: 258px;
-	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
-	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
+	box-sizing: border-box;
+	position: fixed;
+	box-shadow: 5px 0 5px -5px #333;
 }
 
 .abaixoSlaca {
 	width: 215px;
-	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
-	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);
+	height: 900px;
+	box-shadow: 5px 0 5px -5px #333;
 	padding-bottom: 40px;
+	position: fixed;
+	top: 315px;
 }
 
 #menuSlaca {
@@ -516,10 +519,6 @@ textarea::-webkit-scrollbar-thumb {
 
 .parte2 {
 	width: 200px;
-	-webkit-box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11); 
-	box-shadow: 4px 0px 0px 0px rgba(0,0,0,0.11);	
-	padding-top: 50px;
-	padding-bottom: 100%;
 }
 
 .navbarResumo {
@@ -542,7 +541,7 @@ textarea::-webkit-scrollbar-thumb {
 	background: #FFFFFF;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
-	border-radius: 3px;  	
+	border-radius: 3px;	
 }
 
 .verMais {
@@ -701,7 +700,7 @@ hr.new1 {
 	background: #FFFFFF;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
-	border-radius: 3px;  
+	border-radius: 3px; 
 }
 
 .textoDiscussoes {
