@@ -343,21 +343,26 @@ body {
 
 #menuSlaca {
    text-align: center;
-   font-size: 18px;
-   font-family: monospace;
-   padding: 15px;
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 19px;
+	color: #725C5C;
+   	padding: 15px;
 }
 
 #menuSlaca a {
   text-decoration: none;
   text-align: left;
-  padding-top: 5px;
+  padding-top: 6px;
   padding-left: 15px;
   width: 200px;
-  height: 40px;
+  height: 33px;
   color: #725C5C;
   display: inline-block;
   font-family: Quicksand;
+  font-style: normal;
   font-style: normal;
   border-bottom: 1px solid #BDBDBD;
 } 
@@ -411,7 +416,7 @@ body {
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -20px !important;
+  margin-left: -20px;
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s
@@ -502,6 +507,16 @@ textarea::-webkit-scrollbar-thumb {
 	margin-top: 6px;
 }
 
+.textoDetalhes {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+	color: #5C5C5C;	
+}
+
 .scrollspy-example {
   position: relative;
   height: 405px;
@@ -534,14 +549,16 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .textoResumo {
-	font-family: Roboto;
+	font-family: Quicksand;
 	font-style: normal;
+	font-weight: normal;
 	font-size: 14px;
     width: 990px;
 	background: #FFFFFF;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
-	border-radius: 3px;	
+	border-radius: 3px;
+	color: #5C5C5C;	
 }
 
 .verMais {
@@ -740,7 +757,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 a:hover, .active {
-    color:#F48F44!important;
+    color:#F48F44;
 }
 
 .aguardandoFeedback {
@@ -870,7 +887,6 @@ a:hover, .active {
 
 .footer {
 	margin-top: 30px; 
-	width: 988px;
 	height: 
 }
 
@@ -878,7 +894,7 @@ a:hover, .active {
 /*Ajustando Site*/
 
 .centralizar {
-	width: 1228px;
+	padding-right: auto;
 }
 
 /*Ajustando Site Fim*/
