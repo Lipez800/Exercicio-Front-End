@@ -553,7 +553,8 @@ textarea::-webkit-scrollbar-thumb {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-    width: 990px;
+    width: auto;
+    height: auto;
 	background: #FFFFFF;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
@@ -573,7 +574,9 @@ textarea::-webkit-scrollbar-thumb {
 
 /*Efeito Ver Mais*/
 .section {
-    position: absolute;
+    position: relative;
+    width: auto;
+    margin-right: 10px;
 }
 
 .section > .txt-more {
@@ -588,7 +591,7 @@ textarea::-webkit-scrollbar-thumb {
 
 .section > .partial {
     height: 114px; /* limita a altura aqui, assim irá limitar o texto*/
-    width: 990px;
+    width: auto;
     overflow: hidden;
     padding: 0px;
 }
@@ -604,18 +607,18 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .section > a.txt-more::before {
-    content: "ver mais"; /* texto para o link*/
+    content: "...ver mais"; /* texto para o link*/
     font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	color: #ED7839;
+	background: white;
 }
 /*Fim Efeito Ver Mais*/
 
 /*Player De Video*/
 .container {
-  max-width: 800px;
   margin: 0 auto;
 }
 .plyr {
@@ -679,7 +682,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .bordaDiscussoes {
-	width: 990px;
+	width: auto;
 	background: #FFFFFF;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
