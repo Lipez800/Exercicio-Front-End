@@ -625,6 +625,62 @@ textarea::-webkit-scrollbar-thumb {
   border-radius: 4px;
   margin-bottom: 15px;
   height: 456px;
+  width: 1400px;
+}
+@media (max-width: 1920px) {
+    .plyr {
+  	height: 456px;
+ 	width: 1400px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .plyr {
+  	height: 456px;
+ 	width: 1300px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .plyr {
+  	height: 456px;
+ 	width: 1200px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .plyr {
+  	height: 456px;
+ 	width: 1100px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .plyr {
+  	height: 456px;
+ 	width: 1000px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .plyr {
+  	height: 456px;
+ 	width: 900px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .plyr {
+  	height: 456px;
+ 	width: 800px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .plyr {
+  	height: 456px;
+ 	width: 720px;
+    }
 }
 /*Player De Video Fim*/
 
