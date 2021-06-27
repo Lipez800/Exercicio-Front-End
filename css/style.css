@@ -536,6 +536,18 @@ textarea::-webkit-scrollbar-thumb {
 	width: 200px;
 }
 
+.navbarDiscussoes {
+	background: #FDF1EB;
+	border: 1px solid #ECECEC;
+	box-sizing: border-box;
+	border-radius: 3px 3px 0px 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+}
+
 .navbarResumo {
 	background: #FDF1EB;
 	border: 1px solid #ECECEC;
@@ -546,6 +558,56 @@ textarea::-webkit-scrollbar-thumb {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 25px;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+@media (max-width: 1920px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .navbarResumo {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .navbarResumo {
+	margin-right: 210px;
+    }
 }
 
 .textoResumo {
@@ -576,7 +638,6 @@ textarea::-webkit-scrollbar-thumb {
 .section {
     position: relative;
     width: auto;
-    margin-right: 10px;
 }
 
 .section > .txt-more {
@@ -584,13 +645,13 @@ textarea::-webkit-scrollbar-thumb {
 
     /*posiciona o link no final da DIV*/
     position: absolute;
-    right: 17.5%;
-    top: 70px;
-    bottom: auto;
+    left: 93%;
+    top: 10.8%;
+
 }
 
 .section > .partial {
-    height: 114px; /* limita a altura aqui, assim irá limitar o texto*/
+    height: 144px; /* limita a altura aqui, assim irá limitar o texto*/
     width: auto;
     overflow: hidden;
     padding: 0px;
@@ -614,6 +675,54 @@ textarea::-webkit-scrollbar-thumb {
 	font-size: 14px;
 	color: #ED7839;
 	background: white;
+}
+
+@media (max-width: 1920px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .section {
+	margin-right: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .section {
+	margin-right: 210px;
+    }
 }
 /*Fim Efeito Ver Mais*/
 
@@ -835,7 +944,7 @@ a:hover, .active {
 	line-height: 20px;
 	color: #ED7839;
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .GrupoNomes {
@@ -901,6 +1010,7 @@ a:hover, .active {
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-top: 15px;
+	font-family: Quicksand;	
 }
 
 .GrupoImgAutor {
