@@ -607,7 +607,7 @@ textarea::-webkit-scrollbar-thumb {
 
 @media (max-width: 1280px) {
     .navbarResumo {
-	margin-right: 210px;
+	width: 994px;
     }
 }
 
@@ -722,7 +722,7 @@ textarea::-webkit-scrollbar-thumb {
 
 @media (max-width: 1280px) {
     .section {
-	margin-right: 210px;
+	width: 994px;
     }
 }
 
@@ -837,9 +837,9 @@ textarea::-webkit-scrollbar-thumb {
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
 	border-radius: 4px;
 	border: none;
+	font-family: Quicksand;
 	font-weight: bold;
 	margin-top: 20px;
-	margin-left: 43%;
 	margin-bottom: 10px;
 }
 
