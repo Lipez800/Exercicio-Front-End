@@ -546,6 +546,7 @@ textarea::-webkit-scrollbar-thumb {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 25px;
+	clear: both;
 }
 
 .navbarResumo {
@@ -644,10 +645,8 @@ textarea::-webkit-scrollbar-thumb {
     display: block;
 
     /*posiciona o link no final da DIV*/
-    position: absolute;
-    left: 93%;
-    top: auto;
-    transform: translateY(-33px);
+	float: right;
+    transform: translateY(-32px);
 
 
 }
