@@ -725,6 +725,13 @@ textarea::-webkit-scrollbar-thumb {
 	margin-right: 210px;
     }
 }
+
+@media (max-width: 620px) {
+    .section {
+	margin-right: 0px;
+	width: 1280px;
+    }
+}
 /*Fim Efeito Ver Mais*/
 
 /*Player De Video*/
@@ -792,6 +799,7 @@ textarea::-webkit-scrollbar-thumb {
  	width: 720px;
     }
 }
+
 /*Player De Video Fim*/
 
 /* Efeito barra de rolagem */
