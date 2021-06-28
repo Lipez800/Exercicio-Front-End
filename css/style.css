@@ -977,7 +977,7 @@ textarea::-webkit-scrollbar-thumb {
 	line-height: 21px;
 	color: #ED7839;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 5px;
 }
 
@@ -1002,12 +1002,63 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .assuntoDiscussoes {
- 	width: 989px;
+ 	width: 100%;
+ 	height: 330.5px;
  	margin-bottom: 5px;
  	position: absolute;
- 	top: -480px;
+ 	top: -495px;
  	padding-bottom: 0px;
  	
+}
+
+@media (max-width: 1920px) {
+    .assuntoDiscussoes {
+	top: -525px;
+	height: 338px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .assuntoDiscussoes {
+	top: -520px;
+	height: 335px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .assuntoDiscussoes {
+	top: -515px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .assuntoDiscussoes {
+	top: -510px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .assuntoDiscussoes {
+	top: -510px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .assuntoDiscussoes {
+	top: -505px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .assuntoDiscussoes {
+	top: -500px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .assuntoDiscussoes {
+	top: -495px;
+    }
 }
 
 .buttonAssunto {
@@ -1026,7 +1077,7 @@ textarea::-webkit-scrollbar-thumb {
 	border: none;
 	font-weight: bold;
 	margin-top: 10px;
-	margin-left: 0px;
+	margin-left: 10px;
 }
 
 .assuntoeConteudo {
@@ -1040,12 +1091,68 @@ textarea::-webkit-scrollbar-thumb {
 
 .topicoEnviadoDiscussoes {
 	background: #FFFFFF;
-	height: 295px;
- 	width: 989px;
- 	position: absolute;
- 	top: 176px;
- 	right: 22px;
- 	padding-bottom: 0px;  
+ 	top: 190.5px;
+ 	right: 21px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	width: 101.1%;
+ 	height: 290px;
+}
+
+@media (max-width: 1920px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 200px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 210px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 220px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 250px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 290px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 290px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 290px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .topicoEnviadoDiscussoes {
+	top: 190.5px;
+	height: 290px;
+    }
 }
 
 .textoDiscussoesSublinhado {
