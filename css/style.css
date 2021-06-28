@@ -367,8 +367,85 @@ body {
 
 /*Fim head*/
 
-/*Efeito imagem */ 
+/* Swing Efeito texto abaixo */  
 @-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 0.8s ease;
+        animation: swing 0.8s ease;
+        -webkit-animation-iteration-count: 0.8;
+        animation-iteration-count: 0.8;
+}
+
+/* Swing Efeito Imagem abaixo */ 
+
+@-webkit-keyframes swingimg
 {
     15%
     {
@@ -401,7 +478,7 @@ body {
         transform: translateX(0);
     }
 }
-@keyframes swing
+@keyframes swingimg
 {
     15%
     {
@@ -435,7 +512,7 @@ body {
     }
 }
 
-.swing:hover
+.swingimg:hover
 {
         -webkit-animation: swing 1s ease;
         animation: swing 1s ease;
