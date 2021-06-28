@@ -101,13 +101,91 @@ body {
 }
 
 #drop {
-	position: absolute;
 	width: 97px;
 	height: 34px;
-	left: 880px;
-	top: 12px;
-	box-sizing: border-box;
-	border-radius: 3px;	
+	border-radius: 3px;
+	margin-left: 73%;
+	margin-bottom: 10px;	
+}
+
+@media (max-width: 1920px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 82%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1820px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 81%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1720px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 80%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1620px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 79%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1520px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 78%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 77%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1380px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 75%;
+	margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #drop {
+	width: 97px;
+	height: 34px;
+	border-radius: 3px;
+	margin-left: 73%;
+	margin-bottom: 10px;
+    }
 }
 
 /*Menu*/
@@ -189,6 +267,54 @@ body {
   transform: translate(-700%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+@media (max-width: 1920px) {
+    #menu {
+	margin-left: -2300%;
+    }
+}
+
+@media (max-width: 1820px) {
+    #menu {
+	margin-left: -2200%;
+    }
+}
+
+@media (max-width: 1720px) {
+    #menu {
+	margin-left: -2100%;
+    }
+}
+
+@media (max-width: 1620px) {
+    #menu {
+	margin-left: -2000%;
+    }
+}
+
+@media (max-width: 1520px) {
+    #menu {
+	margin-left: -1900%;
+    }
+}
+
+@media (max-width: 1440px) {
+    #menu {
+	margin-left: -1800%;
+    }
+}
+
+@media (max-width: 1380px) {
+    #menu {
+	margin-left: -1700%;
+    }
+}
+
+@media (max-width: 1280px) {
+    #menu {
+	margin-left: -1600%;
+    }
 }
 
 #menu li
