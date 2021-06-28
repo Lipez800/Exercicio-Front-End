@@ -1,3 +1,3 @@
 # Exercicio-Front-End
 Esse Site é dedicado à um exercício feito no processo seletivo.
-Sendo 100% responsivo na resolução 1228x1024 em outras pode aver bugs :)
+Sendo 100% responsivo Responsivo da resolução 1280px ate 1920px em outras pode aver bugs :)
