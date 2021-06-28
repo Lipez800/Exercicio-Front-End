@@ -1282,8 +1282,114 @@ a:hover, .active {
 	display: block;
 	width: 110px;
 	height: 25px;
-	margin-left: 268%;
+	margin-right: auto;
 	margin-top: -20px;
+	padding-left: 433%;
+}
+
+@media (max-width: 1920px) {
+    .GrupoImgAutor {
+	padding-left: 805%;
+    }
+}
+
+@media (max-width: 1820px) {
+    .GrupoImgAutor {
+	padding-left: 752%;
+    }
+}
+
+@media (max-width: 1720px) {
+    .GrupoImgAutor {
+	padding-left: 698%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .GrupoImgAutor {
+	padding-left: 643%;
+    }
+}
+
+@media (max-width: 1520px) {
+    .GrupoImgAutor {
+	padding-left: 590%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .GrupoImgAutor {
+	padding-left: 546%;
+    }
+}
+
+@media (max-width: 1380px) {
+    .GrupoImgAutor {
+	padding-left: 515%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .GrupoImgAutor {
+	padding-left: 433%;
+    }
+}
+
+.GrupoImgCoautor {
+	display: block;
+	width: 110px;
+	height: 25px;
+	margin-right: auto;
+	margin-top: -20px;
+	padding-left: 400%;
+}
+
+@media (max-width: 1920px) {
+    .GrupoImgCoautor {
+	padding-left: 745%;
+    }
+}
+
+@media (max-width: 1820px) {
+    .GrupoImgCoautor {
+	padding-left: 695%;
+    }
+}
+
+@media (max-width: 1720px) {
+    .GrupoImgCoautor {
+	padding-left: 645%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .GrupoImgCoautor {
+	padding-left: 595%;
+    }
+}
+
+@media (max-width: 1520px) {
+    .GrupoImgCoautor {
+	padding-left: 545%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .GrupoImgCoautor {
+	padding-left: 505%;
+    }
+}
+
+@media (max-width: 1380px) {
+    .GrupoImgCoautor {
+	padding-left: 475%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .GrupoImgCoautor {
+	padding-left: 400%;
+    }
 }
 
 .GrupoNomesResposta {
